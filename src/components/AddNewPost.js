@@ -31,8 +31,8 @@ const AddNewPost = () => {
       body,
       upVotesCount: 0,
       downVotesCount: 0,
-      createdAt: date.toUTCString(),
-      updatedAt: date.toUTCString(),
+      createdAt: date.toString(),
+      updatedAt: date.toString(),
     });
     onClose();
     setTitle("");
