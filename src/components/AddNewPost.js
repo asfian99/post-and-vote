@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import {
   Button,
   FormControl,
@@ -21,6 +21,7 @@ const AddNewPost = () => {
   const { isOpen, onOpen, onClose } = useDisclosure();
   const [title, setTitle] = useState("");
   const [body, setBody] = useState("");
+  // eslint-disable-next-line
   const [isSaving, setIsSaving] = useState(false);
 
   const handleSubmit = async () => {
